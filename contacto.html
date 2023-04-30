@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto para reserva</title>
+    <link rel="stylesheet" href="CSS/styleContact.css">
+</head>
+<body>
+    <header>
+        <div class="menu container">
+            <a href="#"><img src="IMG/logo.png" class="logo" alt="Logo del restaurante Gusteau's"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="IMG/menu.png" class="menu-icono" alt="Imagen con tres rayas tipico de un menu desplegable"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="nosotros.html">Quienes somos</a></li>
+                    <li><a href="contacto.html">Contacto para reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="form-content">
+        <h2>Reserva una mesa con nosotros</h2>
+        <form action="https://formsubmit.co/ your@email.com " method="POST">
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" name="name" id="name" placeholder="Ingrese su nombre y apellido">
+
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su correo">
+
+            <label for="text">Dia de la reserva</label>
+            <input type="date" name="date" id="date">
+
+            <label for="text">Hora de la reserva</label>
+            <input type="time" name="time" id="time">
+
+            <label for="text">¿Cuantas personas asistirán?</label>
+            <input type="number" placeholder="Cantidad de personas">
+
+            <label for="coments">¿Quisieras decirnos algo sobre la reserva?</label>
+            <textarea name="coments" id="coments" cols="30" rows="5" placeholder="Comentarios"></textarea>
+
+            <input class="btn" type="submit"value="Enviar">
+
+            <input type="hidden" name="_next" value="">
+        </form>
+    </div>
+    <!-- <footer class="footer container">
+        <img class="logo-2" src="IMG/logo.png" alt="Logo del restaurante Gusteau's">
+        <div class="links">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="#">Hamburguesas</a></li>
+                <li><a href="#">Tacos</a></li>
+                <li><a href="#">Desayuno</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Contacto para reserva</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#">Valentín Vergara 1700, <br> B1832 Banfield, Provincia de Buenos Aires</a></li>
+                <li><a href="#">011 4202-7833</a></li>
+                <li><a href="#">Correo@gmail.com.ar</a></li>
+                <li><a href="">Horario de atencion: <br>Lunes a Viernes de 8 a 13 - 14 a 17 hs.</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Nuestras redes sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="IMG/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="IMG/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="IMG/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer> -->
+</body>
+</html>
